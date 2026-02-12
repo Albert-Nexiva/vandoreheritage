@@ -1,7 +1,12 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import { Page } from '../App';
 
-const Hero: React.FC = () => {
+interface HeroProps {
+  onNavigate?: (page: Page) => void;
+}
+
+const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   return (
     <header className="relative w-full min-h-screen flex flex-col md:flex-row">
       {/* Left Panel: Content */}
@@ -28,13 +33,13 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="pt-4">
-            <a 
-              href="#" 
+            <button 
+              onClick={() => onNavigate?.('properties')}
               className="group inline-flex items-center gap-4 px-10 py-4 border border-heritage-gold/50 text-heritage-gold hover:bg-heritage-gold hover:text-heritage-burgundy hover:border-heritage-gold transition-all duration-500 text-xs font-bold tracking-[0.2em] uppercase"
             >
               Explore Properties
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-            </a>
+            </button>
           </div>
         </div>
       </div>

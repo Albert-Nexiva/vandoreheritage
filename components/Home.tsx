@@ -13,7 +13,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
   return (
     <>
       <section className="h-screen overflow-hidden">
-        <Hero />
+        <Hero onNavigate={onNavigate} />
       </section>
       <section className="min-h-screen flex items-center justify-center bg-background-light py-20">
         <CuratedCarousel onNavigate={onNavigate} />
