@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vandore Heritage</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              heritage: {
+                burgundy: '#3E0E12',
+                cream: '#F5F0EB',
+                gold: '#D4AF37',
+                dark: '#1a1818',
+                primary: '#2a2223',
+                gray: '#9CA3AF',
+              },
+              primary: '#2a2223',
+              'primary-light': '#4a3b3c',
+              accent: '#D4AF37',
+              'background-light': '#F9F8F6',
+              'background-dark': '#1a1818',
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              display: ['"Plus Jakarta Sans"', 'sans-serif'],
+              newsreader: ['"Newsreader"', 'serif'],
+              inter: ['"Inter"', 'sans-serif'],
+            },
+            borderRadius: {
+              'arch': '150px 150px 0 0',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Custom selection color */
+      ::selection {
+        background-color: #D4AF37;
+        color: #3E0E12;
+      }
+      
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+      .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+      }
+      
+      .material-symbols-outlined.ultra-thin {
+        font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 24;
+      }
+
+      .drop-cap::first-letter {
+          float: left;
+          font-size: 3.5rem;
+          line-height: 0.85;
+          font-weight: 300;
+          margin-right: 0.75rem;
+          margin-top: 0.1rem;
+          color: #D4AF37;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
