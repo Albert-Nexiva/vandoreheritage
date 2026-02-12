@@ -12,16 +12,16 @@ interface HomeProps {
 const Home: React.FC<HomeProps> = ({ onNavigate }) => {
   return (
     <>
-      <section className="snap-start snap-always h-screen overflow-hidden">
+      <section className="h-screen overflow-hidden">
         <Hero />
       </section>
-      <section className="snap-start snap-always min-h-screen flex items-center justify-center bg-background-light py-20">
+      <section className="min-h-screen flex items-center justify-center bg-background-light py-20">
         <CuratedCarousel onNavigate={onNavigate} />
       </section>
-      <section className="snap-start snap-always min-h-screen flex items-center bg-heritage-cream">
+      <section className="min-h-screen flex items-center bg-heritage-cream">
         <Services />
       </section>
-      <section className="snap-start snap-always min-h-screen flex items-center bg-heritage-cream">
+      <section className="min-h-screen flex items-center bg-heritage-cream">
         <Authority />
       </section>
     </>

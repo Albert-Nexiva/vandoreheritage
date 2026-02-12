@@ -5,7 +5,7 @@ const ServicesPage: React.FC = () => {
     <div className="font-newsreader text-heritage-burgundy selection:bg-[#f9bc06]/30">
       
       {/* Hero Section */}
-      <section className="snap-start snap-always min-h-screen flex items-center justify-center pt-20 pb-20 px-6 text-center max-w-4xl mx-auto">
+      <section className="min-h-screen flex items-center justify-center pt-20 pb-20 px-6 text-center max-w-4xl mx-auto">
         <div>
           <h1 className="text-5xl md:text-7xl font-medium text-heritage-burgundy mb-8 leading-tight">
             Curating a Life <br/> <span className="italic font-light">Well-Lived</span>
@@ -19,7 +19,7 @@ const ServicesPage: React.FC = () => {
 
       <main className="max-w-7xl mx-auto px-6">
         {/* Service 1: Advisory */}
-        <section className="snap-start snap-always min-h-screen flex items-center grid md:grid-cols-2 gap-16 py-12 md:py-0">
+        <section className="min-h-screen flex items-center grid md:grid-cols-2 gap-16 py-12 md:py-0">
           <div className="order-2 md:order-1">
             <div className="flex items-center space-x-4 mb-6">
               <span className="material-icons-outlined text-[#f9bc06] text-3xl">account_balance</span>
@@ -40,7 +40,7 @@ const ServicesPage: React.FC = () => {
         </section>
 
         {/* Service 2: Interiors */}
-        <section className="snap-start snap-always min-h-screen flex items-center grid md:grid-cols-2 gap-16 py-12 md:py-0">
+        <section className="min-h-screen flex items-center grid md:grid-cols-2 gap-16 py-12 md:py-0">
           <div className="order-1">
             <div className="shadow-2xl rounded-t-[500px] overflow-hidden aspect-[4/5] max-h-[70vh] w-auto mx-auto">
               <img alt="Elegant interior design" className="w-full h-full object-cover grayscale-[10%] hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4WtULNjdZxcl1Q2cweAPTGjh8I9P632HNQ8tg2loeVWENP6zpeotWR7M8UTNFsYeKvk6UJd13Lfdt3Pigw9Ztc1lXvujPVGOCUKFxV4wRwpy4hj9S8sRvwKbsulbRslLrVD7YRuAltT1MOBIjFU1VKoHju9tUZOTgc79qN3D5hX0f4PfNtNiJLCJtWu7M9LXl6pIfvRzXC8TJY5tbWO8LD1evWbRpO8GOBQPow8KjQYE-SQO-3vpkrarL-maHL0q62ULGTN8Ia6s"/>
@@ -61,7 +61,7 @@ const ServicesPage: React.FC = () => {
         </section>
 
         {/* Service 3: Investment */}
-        <section className="snap-start snap-always min-h-screen flex items-center grid md:grid-cols-2 gap-16 py-12 md:py-0">
+        <section className="min-h-screen flex items-center grid md:grid-cols-2 gap-16 py-12 md:py-0">
           <div className="order-2 md:order-1">
             <div className="flex items-center space-x-4 mb-6">
               <span className="material-icons-outlined text-[#f9bc06] text-3xl">insights</span>
@@ -82,7 +82,7 @@ const ServicesPage: React.FC = () => {
         </section>
 
         {/* Service 4: Concierge */}
-        <section className="snap-start snap-always min-h-screen flex items-center grid md:grid-cols-2 gap-16 py-12 md:py-0">
+        <section className="min-h-screen flex items-center grid md:grid-cols-2 gap-16 py-12 md:py-0">
           <div className="order-1">
             <div className="shadow-2xl rounded-t-[500px] overflow-hidden aspect-[4/5] max-h-[70vh] w-auto mx-auto">
               <img alt="Luxury hotel lobby concierge" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgi5RIGot0RrZ8dRG_padMOFInpA9_okUVXoi5x2qSmYtqkWKwn0Y2YNnzaTyCTN4eJBVG7pi6GBY0RKosdmk1_mRKq_g09QoTbJESLQKhHGLAMURHnQhZ5nkBEtHSR0x2-3kRjft3w7uXNlj8cy4CPjsnihs-AC-Ixe5Ipjo_sR74uVkuYLv7F-etyk8DapRqMX61fmIGhLoR2_O00uTaYKhMt5nP1RcHnLBkkeu-GxTrLKI9xFMkEoZ3waJNuYvAlvMLoAWXM8g"/>

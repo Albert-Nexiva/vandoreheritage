@@ -7,7 +7,7 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   return (
-    <footer className="snap-start snap-always bg-heritage-burgundy text-heritage-cream relative overflow-hidden min-h-[50vh] flex flex-col justify-center">
+    <footer className="bg-heritage-burgundy text-heritage-cream relative overflow-hidden min-h-[50vh] flex flex-col justify-center">
       {/* Decorative Border Top */}
       <div className="h-1 w-full bg-gradient-to-r from-heritage-burgundy via-heritage-gold/40 to-heritage-burgundy absolute top-0"></div>
       

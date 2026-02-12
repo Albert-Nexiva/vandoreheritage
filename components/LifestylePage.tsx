@@ -10,7 +10,7 @@ const LifestylePage: React.FC = () => {
       </div>
 
       {/* Editorial Header */}
-      <section className="snap-start snap-always min-h-screen flex flex-col justify-center max-w-7xl mx-auto px-8 py-20 text-center">
+      <section className="min-h-screen flex flex-col justify-center max-w-7xl mx-auto px-8 py-20 text-center">
         <span className="text-xs uppercase tracking-[0.4em] text-[#C5A059] mb-4 block">The Lifestyle Curation</span>
         <h1 className="text-6xl md:text-8xl font-serif italic mb-8">Heritage in Motion</h1>
         <p className="max-w-2xl mx-auto text-lg leading-relaxed text-heritage-burgundy/70 font-light">
@@ -19,7 +19,7 @@ const LifestylePage: React.FC = () => {
       </section>
 
       {/* Gallery Section */}
-      <section className="snap-start snap-always min-h-screen flex items-center max-w-7xl mx-auto px-8 py-20">
+      <section className="min-h-screen flex items-center max-w-7xl mx-auto px-8 py-20">
         <div className="w-full columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
           {/* Item 1: Porsches & Coffee */}
           <div className="break-inside-avoid group cursor-pointer mb-8">
@@ -81,7 +81,7 @@ const LifestylePage: React.FC = () => {
       </section>
 
       {/* Featured Story Block */}
-      <section className="snap-start snap-always min-h-screen flex items-center justify-center bg-white">
+      <section className="min-h-screen flex items-center justify-center bg-white">
         <div className="grid md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto px-8 py-20">
           <div className="relative">
             <div className="absolute -top-8 -left-8 w-24 h-24 border-l-2 border-t-2 border-[#C5A059]/30"></div>

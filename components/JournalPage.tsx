@@ -5,7 +5,7 @@ const JournalPage: React.FC = () => {
     <div className="font-sans text-heritage-burgundy bg-white">
       <main>
         {/* Featured Post Section */}
-        <section className="snap-start snap-always min-h-screen flex items-center justify-center container mx-auto px-6 py-20 lg:py-0">
+        <section className="min-h-screen flex items-center justify-center container mx-auto px-6 py-20 lg:py-0">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end w-full">
             <div className="lg:col-span-8 order-2 lg:order-1">
               <div className="mb-6 flex items-center space-x-4">
@@ -36,7 +36,7 @@ const JournalPage: React.FC = () => {
         </section>
 
         {/* Article Grid Section */}
-        <section className="snap-start snap-always min-h-screen flex flex-col justify-center container mx-auto px-6 py-20">
+        <section className="min-h-screen flex flex-col justify-center container mx-auto px-6 py-20">
           <div className="w-full h-px bg-heritage-burgundy/10 mb-12"></div>
           <div className="flex justify-between items-end mb-12">
             <h2 className="text-4xl font-serif text-heritage-burgundy">Latest Stories</h2>
@@ -108,7 +108,7 @@ const JournalPage: React.FC = () => {
         </section>
 
         {/* Newsletter / CTA / Secondary Grid Combined to fit screen? No, split them. */}
-        <section className="snap-start snap-always min-h-screen flex items-center justify-center container mx-auto px-6 py-20">
+        <section className="min-h-screen flex items-center justify-center container mx-auto px-6 py-20">
           <div className="w-full">
             <div className="mb-24 py-20 px-6 bg-heritage-burgundy text-heritage-cream rounded-xl overflow-hidden relative">
               <div className="relative z-10 max-w-2xl mx-auto text-center">
